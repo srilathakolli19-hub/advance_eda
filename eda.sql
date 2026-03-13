@@ -28,6 +28,7 @@ group by DATETRUNC(year,order_date)
 order by order_date
 
 --cummulative analysis
+--calculate total sales per month and the running total of sales over time
 
 select 
 order_date,
@@ -46,6 +47,7 @@ group by DATETRUNC(month,order_date))t
 
 
 --performance analysis
+--analyze the yearly performamce of products by comparing their sales with the average sales of products and their previous years sales
 
 WITH yearly_product_sales AS (
     SELECT
@@ -82,6 +84,7 @@ order by product_name,order_year;
 
 
 --part to whole analysis
+--which categories contribute most to the overall sales
 
 with category_sales as (
 select 
