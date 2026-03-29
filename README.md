@@ -2,7 +2,7 @@
 
 ## 🌟 Overview
 
-This project focuses on **Advanced Exploratory Data Analysis (EDA)** performed on sales data. The goal of this project is to explore business data, generate meaningful insights, and create **clean summarized datasets** that can be easily used for **dashboarding and reporting**.
+This project focuses on **Advanced Exploratory Data Analysis (EDA)** . The goal of this project is to explore business data, generate meaningful insights, and create **clean summarized datasets** that can be easily used for **dashboarding and reporting**.
 
 The analysis uses data from the **Gold Layer of a Data Warehouse**, which was **designed and built by me in my Data Warehouse project**. This ensures the data is already cleaned, structured, and optimized for analytics.
 
